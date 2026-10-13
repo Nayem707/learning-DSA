@@ -215,3 +215,42 @@
 
 #include <iostream>
 using namespace std;
+
+// int main() {
+// int a = 0;
+// int b = 1;
+
+// int next1 = a + b;
+// int next2 = next1 + b;
+// int next3 = next2 + next1;
+// int next4 = next3 + next2;
+// int next5 = next4 + next3;
+
+// cout << next1 << endl;
+// cout << next2 << endl;
+// cout << next3 << endl;
+// cout << next4 << endl;
+// cout << next5 << endl;
+
+// return 0;
+// }
+
+int main() {
+int a = 0;
+int b = 1;
+
+int one = a + b;
+int two = one + one;
+int three = two + one;
+int four = three + two;
+int five = four + three;
+
+cout << one << endl;
+cout << two << endl;
+cout << three << endl;
+cout << four << endl;
+cout << five << endl;
+
+return 0;
+}
+

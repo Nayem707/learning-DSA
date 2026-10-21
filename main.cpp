@@ -235,22 +235,72 @@ using namespace std;
 // return 0;
 // }
 
+// int main() {
+// int a = 0;
+// int b = 1;
+
+// int one = a + b;
+// int two = one + one;
+// int three = two + one;
+// int four = three + two;
+// int five = four + three;
+
+// cout << one << endl;
+// cout << two << endl;
+// cout << three << endl;
+// cout << four << endl;
+// cout << five << endl;
+
+// return 0;
+// }
+
+// #include<iostream>
+// using namespace std;
+
+// int main() {
+
+// int a = 0;
+// int b = 1;
+
+// for (int i = 0; i < 5; i++) {
+//     int next = a + b;
+//     cout << next << endl;
+//     a = b;
+//     b = next;
+// }
+// return 0;
+// }
+
+// #include<iostream>
+// using namespace std;
+
+// int main()
+// {
+//     int A[5]; // প্রতিটি ঘরের সাইজ ২ বাইট (মোট ৫ × ২ = ১০ বাইট)
+//     A[0]=12;
+//     A[1]=15;
+//     A[2]=25;
+
+//     cout << sizeof(A) << " bytes " << endl; 
+//     // আউটপুট আসবে: 10 bytes
+
+//     return 0;
+// }
+
+#include <iostream>
+using namespace std;
+
 int main() {
-int a = 0;
-int b = 1;
+    cout << "bool: " << sizeof(bool) << " bytes\n";
+    cout << "char: " << sizeof(char) << " bytes\n";
+    cout << "short: " << sizeof(short) << " bytes\n";
+    cout << "int: " << sizeof(int) << " bytes\n";
+    cout << "long: " << sizeof(long) << " bytes\n";
+    cout << "long long: " << sizeof(long long) << " bytes\n";
+    cout << "float: " << sizeof(float) << " bytes\n";
+    cout << "double: " << sizeof(double) << " bytes\n";
+    cout << "long double: " << sizeof(long double) << " bytes\n";
 
-int one = a + b;
-int two = one + one;
-int three = two + one;
-int four = three + two;
-int five = four + three;
-
-cout << one << endl;
-cout << two << endl;
-cout << three << endl;
-cout << four << endl;
-cout << five << endl;
-
-return 0;
+    return 0;
 }
 
